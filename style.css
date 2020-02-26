@@ -2,9 +2,9 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(240, 240, 240);
+    /*background-color: rgb(240, 240, 240);*/
+    background-color: blueviolet;
 }
-
 header {
     display: grid;
     grid-template-columns: 0.16fr 0.11fr;
@@ -32,12 +32,29 @@ header {
 .fa-lock {
     position: relative;
     right: 1rem;
-    color: #ffffff
+    color: #ffffff;
 }
 
-main {
-    width: 25%;
+form {
+    width: 27%;
     margin: 0 auto;
 }
 
+main{
+ text-align: center;
+}
+.main #intuit-logo{
+  margin-top: 2rem;  
+}
+.main ul{
+    list-style: none; 
+}
+.main ul li{
+    display: inline-block;
+}
+.main ul li img{
+    margin-bottom: -0.7rem;
+    border-radius: 55%;
+
+}
 
