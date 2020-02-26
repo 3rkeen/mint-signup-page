@@ -1,4 +1,43 @@
-.fa-lock-open{
-    background-color: brown;
-    color: black;
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(240, 240, 240);
 }
+
+header {
+    display: grid;
+    grid-template-columns: 0.16fr 0.11fr;
+    justify-content: right;
+    margin-top: 0.8rem;
+}
+
+.header-p {
+    text-align: center;
+    font-family: sans-serif;
+}
+.header-p a{
+        font-size: 0.7rem;
+}
+
+.sign-in button{
+    height: 2.2rem;
+    width: 6.5rem;
+    background-color: #0055ff;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+}
+
+.fa-lock {
+    position: relative;
+    right: 1rem;
+    color: #ffffff
+}
+
+main {
+    width: 25%;
+    margin: 0 auto;
+}
+
+
