@@ -2,8 +2,8 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /*background-color: rgb(240, 240, 240);*/
-    background-color: blueviolet;
+    background-color: rgb(240, 240, 240);
+    
 }
 header {
     display: grid;
@@ -35,16 +35,14 @@ header {
     color: #ffffff;
 }
 
-form {
-    width: 27%;
+main {
+    width: 25%;
     margin: 0 auto;
 }
 
-main{
- text-align: center;
-}
-.main #intuit-logo{
-  margin-top: 2rem;  
+.intuit-logo{
+  margin-top: 2rem;
+  text-align: center;  
 }
 .main ul{
     list-style: none; 
@@ -55,6 +53,55 @@ main{
 .main ul li img{
     margin-bottom: -0.7rem;
     border-radius: 55%;
+}
+fieldset {
+    background-color: #ffffff;
+    /* text-align: center; */
+}
+.fieldset h2{
+    text-align: center;
+    color: #606060;
+    font-family: sans-serif;
 
 }
+.fieldset input{
+    width: 20rem;
+    height: 2rem;
+    margin-bottom: 3rem;
+    position: relative;
+    bottom: 3rem;
+}
+
+.fieldset p{
+    text-align: center;
+}
+
+.fieldset p a{
+    text-align: center;
+    position: relative;
+    bottom: 3rem;
+    text-decoration: none;
+}
+.fieldset label {
+    position: relative;
+    bottom: 3.5rem;
+}
+
+.fieldset input[id="comf-password"] {
+    display: none;
+}
+
+.fieldset label[for="comf-password"]{
+    display: none;
+}
+
+#call {
+    position: relative;
+    bottom: 6rem;
+}
+
+
+
+
+
 
