@@ -1,100 +1,98 @@
 /* Start Body */
 body {
-    padding:  0;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: rgb(240, 240, 240);
-    font-weight: 400;
-    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(240, 240, 240);
+  font-weight: 400;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 /* End Body */
 
 /* Start Header */
 header {
-    display: grid;
-    grid-template-columns: 0.16fr 0.11fr;
-    justify-content: right;
-    margin-top: 0.8rem;
+  display: grid;
+  grid-template-columns: 0.16fr 0.11fr;
+  justify-content: right;
+  margin-top: 0.8rem;
 }
 .header-p {
-    text-align: center;
+  text-align: center;
 }
 .header-p a {
-    font-size: 0.7rem;
+  font-size: 0.7rem;
 }
 .sign-in button {
-    height: 2.2rem;
-    width: 6.5rem;
-    background-color: #0055ff;
-    color: #ffffff;
-    border-radius: 5px;
-    border: none;
+  height: 2.2rem;
+  width: 6.5rem;
+  background-color: #0055ff;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
 }
 .fa-lock {
-    position: relative;
-    right: 1rem;
-    color: #ffffff;
+  position: relative;
+  right: 1rem;
+  color: #ffffff;
 }
 /* End Header */
 
 /* Start Main */
 main {
-    width: 30%;
-    margin: 0 auto;
+  width: 30%;
+  margin: 0 auto;
 }
 .intuit-logo {
   margin-top: 2rem;
-  text-align: center;  
-
+  text-align: center;
 }
 .main ul {
-    list-style: none;
-
+  list-style: none;
 }
 .main ul li {
-    display: inline-block;
+  display: inline-block;
 }
-.main ul li img{
-    margin-bottom: -0.7rem;
-    border-radius: 55%;
+.main ul li img {
+  margin-bottom: -0.7rem;
+  border-radius: 55%;
 }
 fieldset {
-    background-color: #ffffff;
-    padding: 2rem; 
+  background-color: #ffffff;
+  padding: 2rem;
 }
 .fieldset h2 {
-    text-align: center;
-    color: #606060;
-    font-family: sans-serif;
+  text-align: center;
+  color: #606060;
+  font-family: sans-serif;
 }
 
 .fieldset p {
-    text-align: center;
-    font-size: 0.9rem;
-    margin: 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin: 0;
 }
 .fieldset p a {
-    text-align: center;
-    text-decoration: none;
+  text-align: center;
+  text-decoration: none;
 }
 .form-input {
-    margin-top: 2rem;
-} 
+  margin-top: 2rem;
+}
 
 fieldset {
-   border: 0;
-   margin: 0;
+  border: 0;
+  margin: 0;
 }
 .form-input label {
-    color: #636466;
-    display: block;
-    font-weight: 1rem;
-    margin-bottom: 0.5rem;
+  color: #636466;
+  display: block;
+  font-weight: 1rem;
+  margin-bottom: 0.5rem;
 }
 .form-input input {
   background: #fff;
   border: 1px solid #c6c7cc;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
   color: #636466;
   height: 2.1rem;
   border-radius: 0.2rem;
@@ -102,77 +100,79 @@ fieldset {
   width: 100%;
 }
 .fieldset input[id="user-password"] {
-    background: url(images/unlock-icon.PNG) no-repeat right;
+  background: url(images/unlock-icon.PNG) no-repeat right;
 }
-.fieldset input[id="comf-password"], input[id="user-email"] {
-    margin-bottom: 2rem;
+.fieldset input[id="comf-password"],
+input[id="user-email"] {
+  margin-bottom: 2rem;
 }
 .fieldset input[id="user-password"] {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .fieldset #call {
-    margin-bottom: 2rem;
-    text-align: left; 
-    font-size: small; 
+  margin-bottom: 2rem;
+  text-align: left;
+  font-size: small;
 }
-.fieldset input[id="comf-password"], label[for="comf-password"] {
-    display: none;
+.fieldset input[id="comf-password"],
+label[for="comf-password"] {
+  display: none;
 }
 .fieldset #create-btn {
-    width: 100%;
-    height: 2.5rem;
-    color: #ffffff;
-    font-size: 1.2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    border-style: none;
+  width: 100%;
+  height: 2.5rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: none;
 }
 fieldset button {
-    background-color:#0055ff;
-    border-radius: 0.4rem;
+  background-color: #0055ff;
+  border-radius: 0.4rem;
 }
 .click-title {
-    text-align: center;
-    margin-top: 2rem;
+  text-align: center;
+  margin-top: 2rem;
 }
 .click-title a {
   text-decoration: none;
 }
 .form-footer {
-    display: flex;
-    height: 3rem;
-    align-items: center;
-    background-color: rgb(245, 245, 245);
-    font-size: 0.7rem;
-    padding: 2rem;
-    box-sizing: border-box;
-    text-align: center;   
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  font-size: 0.7rem;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-align: center;
 }
 .form-footer p {
-    margin: 0; 
+  margin: 0;
 }
 .form-footer a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* End Main */
 
 /* Start Footer */
 .footer ul li {
- list-style: none;
- display: inline-block;
- width: 5rem;
+  list-style: none;
+  display: inline-block;
+  width: 5rem;
 }
 .footer {
-    text-align: center;  
+  text-align: center;
 }
 .footer ul li a {
- text-decoration: none;
- color: #636466;
+  text-decoration: none;
+  color: #636466;
 }
 .footer p {
-margin: 0;
-padding: 1rem;
-font-size: small;
-color: #636466;
+  margin: 0;
+  padding: 1rem;
+  font-size: small;
+  color: #636466;
 }
 /* End Footer*/
