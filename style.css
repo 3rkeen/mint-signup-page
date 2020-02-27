@@ -1,4 +1,5 @@
 /* Start Body */
+
 body {
   padding: 0;
   margin: 0;
@@ -7,21 +8,31 @@ body {
   font-weight: 400;
   font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+
 /* End Body */
 
 /* Start Header */
+
 header {
   display: grid;
   grid-template-columns: 0.16fr 0.11fr;
   justify-content: right;
   margin-top: 0.8rem;
 }
+
 .header-p {
   text-align: center;
 }
+
 .header-p a {
   font-size: 0.7rem;
 }
+
+fieldset button {
+  background-color: #05f;
+  border-radius: 0.4rem;
+}
+
 .sign-in button {
   height: 2.2rem;
   width: 6.5rem;
@@ -30,22 +41,27 @@ header {
   border-radius: 5px;
   border: none;
 }
+
 .fa-lock {
   position: relative;
   right: 1rem;
   color: #fff;
 }
+
 /* End Header */
 
 /* Start Main */
+
 main {
   width: 30%;
   margin: 0 auto;
 }
+
 .intuit-logo {
   margin-top: 2rem;
   text-align: center;
 }
+
 .main ul {
   list-style: none;
 }
@@ -56,12 +72,14 @@ main {
   margin-bottom: -0.7rem;
   border-radius: 55%;
 }
+
 fieldset {
   background-color: #fff;
   padding: 2rem;
   border: 0;
   margin: 0;
 }
+
 .fieldset h2 {
   text-align: center;
   color: #606060;
@@ -73,10 +91,12 @@ fieldset {
   font-size: 0.9rem;
   margin: 0;
 }
+
 .fieldset p a {
   text-align: center;
   text-decoration: none;
 }
+
 .form-input {
   margin-top: 2rem;
 }
@@ -87,6 +107,7 @@ fieldset {
   font-weight: 1rem;
   margin-bottom: 0.5rem;
 }
+
 .form-input input {
   background: #fff;
   border: 1px solid #c6c7cc;
@@ -97,6 +118,7 @@ fieldset {
   padding: 0;
   width: 100%;
 }
+
 .fieldset input[id="user-password"] {
   background: url(images/unlock-icon.PNG) no-repeat right;
   margin-bottom: 1.5rem;
@@ -112,10 +134,12 @@ input[id="user-email"] {
   text-align: left;
   font-size: small;
 }
+
 .fieldset input[id="comf-password"],
 label[for="comf-password"] {
   display: none;
 }
+
 .fieldset #create-btn {
   width: 100%;
   height: 2.5rem;
@@ -124,10 +148,7 @@ label[for="comf-password"] {
   font-family: Arial, Helvetica, sans-serif;
   border-style: none;
 }
-fieldset button {
-  background-color: #0055ff;
-  border-radius: 0.4rem;
-}
+
 .click-title {
   text-align: center;
   margin-top: 2rem;
@@ -156,6 +177,7 @@ fieldset button {
 /* End Main */
 
 /* Start Footer */
+
 .footer ul li {
   list-style: none;
   display: inline-block;
@@ -177,4 +199,5 @@ fieldset button {
   font-size: small;
   color: #636466;
 }
-/* End Footer*/
+
+/* End Footer */
