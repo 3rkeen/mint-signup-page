@@ -99,14 +99,14 @@ fieldset {
 }
 .fieldset input[id="user-password"] {
   background: url(images/unlock-icon.PNG) no-repeat right;
+  margin-bottom: 1.5rem;
 }
+
 .fieldset input[id="comf-password"],
 input[id="user-email"] {
   margin-bottom: 2rem;
 }
-.fieldset input[id="user-password"] {
-  margin-bottom: 1.5rem;
-}
+
 .fieldset #call {
   margin-bottom: 2rem;
   text-align: left;
