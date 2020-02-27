@@ -19,10 +19,10 @@ header {
 .header-p {
     text-align: center;
 }
-.header-p a{
+.header-p a {
     font-size: 0.7rem;
 }
-.sign-in button{
+.sign-in button {
     height: 2.2rem;
     width: 6.5rem;
     background-color: #0055ff;
@@ -42,14 +42,16 @@ main {
     width: 30%;
     margin: 0 auto;
 }
-.intuit-logo{
+.intuit-logo {
   margin-top: 2rem;
   text-align: center;  
+
 }
-.main ul{
-    list-style: none; 
+.main ul {
+    list-style: none;
+
 }
-.main ul li{
+.main ul li {
     display: inline-block;
 }
 .main ul li img{
@@ -60,35 +62,36 @@ fieldset {
     background-color: #ffffff;
     padding: 2rem; 
 }
-.fieldset h2{
+.fieldset h2 {
     text-align: center;
     color: #606060;
     font-family: sans-serif;
 }
 
-.fieldset p{
+.fieldset p {
     text-align: center;
     font-size: 0.9rem;
     margin: 0;
 }
-.fieldset p a{
+.fieldset p a {
     text-align: center;
     text-decoration: none;
 }
-.form-input{
+.form-input {
     margin-top: 2rem;
 } 
+
 fieldset {
    border: 0;
    margin: 0;
 }
-.form-input label{
+.form-input label {
     color: #636466;
     display: block;
     font-weight: 1rem;
     margin-bottom: 0.5rem;
 }
-.form-input input{
+.form-input input {
   background: #fff;
   border: 1px solid #c6c7cc;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
@@ -98,24 +101,24 @@ fieldset {
   padding: 0;
   width: 100%;
 }
-.fieldset input[id="user-password"]{
+.fieldset input[id="user-password"] {
     background: url(images/unlock-icon.PNG) no-repeat right;
 }
-.fieldset input[id="comf-password"], input[id="user-email"]{
+.fieldset input[id="comf-password"], input[id="user-email"] {
     margin-bottom: 2rem;
 }
-.fieldset input[id="user-password"]{
+.fieldset input[id="user-password"] {
     margin-bottom: 1.5rem;
 }
-.fieldset #call{
+.fieldset #call {
     margin-bottom: 2rem;
     text-align: left; 
     font-size: small; 
 }
-.fieldset input[id="comf-password"], label[for="comf-password"]{
+.fieldset input[id="comf-password"], label[for="comf-password"] {
     display: none;
 }
-.fieldset #create-btn{
+.fieldset #create-btn {
     width: 100%;
     height: 2.5rem;
     color: #ffffff;
@@ -123,15 +126,15 @@ fieldset {
     font-family: Arial, Helvetica, sans-serif;
     border-style: none;
 }
-fieldset button{
+fieldset button {
     background-color:#0055ff;
     border-radius: 0.4rem;
 }
-.click-title{
+.click-title {
     text-align: center;
     margin-top: 2rem;
 }
-.click-title a{
+.click-title a {
   text-decoration: none;
 }
 .form-footer {
@@ -144,29 +147,29 @@ fieldset button{
     box-sizing: border-box;
     text-align: center;   
 }
-.form-footer p{
+.form-footer p {
     margin: 0; 
 }
-.form-footer a{
+.form-footer a {
     text-decoration: none;
 }
 
 /* End Main */
 
 /* Start Footer */
-.footer ul li{
+.footer ul li {
  list-style: none;
  display: inline-block;
  width: 5rem;
 }
-.footer{
+.footer {
     text-align: center;  
 }
-.footer ul li a{
+.footer ul li a {
  text-decoration: none;
  color: #636466;
 }
-.footer p{
+.footer p {
 margin: 0;
 padding: 1rem;
 font-size: small;
