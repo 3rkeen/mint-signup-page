@@ -98,6 +98,10 @@ fieldset {
   text-decoration: none;
 }
 
+.click-title a {
+  text-decoration: none;
+}
+
 .fieldset p a {
   text-align: center;
   text-decoration: none;
@@ -158,10 +162,6 @@ label[for="comf-password"] {
 .click-title {
   text-align: center;
   margin-top: 2rem;
-}
-
-.click-title a {
-  text-decoration: none;
 }
 
 .form-footer {
