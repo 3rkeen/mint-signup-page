@@ -1,9 +1,15 @@
+/* Start Body */
 body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     background-color: rgb(240, 240, 240);
+    font-weight: 400;
+    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+/* End Body */
+
+/* Start Header */
 header {
     display: grid;
     grid-template-columns: 0.16fr 0.11fr;
@@ -12,7 +18,6 @@ header {
 }
 .header-p {
     text-align: center;
-    font-family: sans-serif;
 }
 .header-p a{
     font-size: 0.7rem;
@@ -30,6 +35,9 @@ header {
     right: 1rem;
     color: #ffffff;
 }
+/* End Header */
+
+/* Start Main */
 main {
     width: 30%;
     margin: 0 auto;
@@ -75,9 +83,9 @@ fieldset {
    margin: 0;
 }
 .form-input label{
-    color: #395870;
+    color: #636466;
     display: block;
-    font-weight: bold;
+    font-weight: 1rem;
     margin-bottom: 0.5rem;
 }
 .form-input input{
@@ -89,6 +97,9 @@ fieldset {
   border-radius: 0.2rem;
   padding: 0;
   width: 100%;
+}
+.fieldset input[id="user-password"]{
+    background: url(images/unlock-icon.PNG) no-repeat right;
 }
 .fieldset input[id="comf-password"], input[id="user-email"]{
     margin-bottom: 2rem;
@@ -139,6 +150,10 @@ fieldset button{
 .form-footer a{
     text-decoration: none;
 }
+
+/* End Main */
+
+/* Start Footer */
 .footer ul li{
  list-style: none;
  display: inline-block;
@@ -157,10 +172,4 @@ padding: 1rem;
 font-size: small;
 color: #636466;
 }
-
-
-
-
-
-
-
+/* End Footer*/
