@@ -28,42 +28,41 @@
                 <li><img src="images/turbotax-logo.PNG" alt="turbotax-logo" id="turbotax-logo"> turbotax</li>
             </ul>
             <form action="index.html" method="POST">
-               <fieldset class="fieldset">
+                <fieldset class="fieldset">
                    <h2>Create an Intuit account</h2>
                    <p>One account for everything Intuit, including Mint.</p>
-                    <br>
                     <p><a href="#" id="learn-more">Learn More</a></p>
-                    <br>
+                    <div class="form-input">
                     <label for="email" class="label">
                        Email Address
-                    </label><br>
+                    </label>
                        <input type="email" name="email" id="user-email">
-                   
                    <label for="phone">
                     Phone (recommended)
-                    </label><br>
+                    </label>
                     <input type="number" name="phone" id="phone-number">
-                    <small id="call">Standard call, messaging or data rates may apply.</small>
+                    <p id="call">Standard call, messaging or data rates may apply.</p>
                   <label for="password">
                       Password
-                    </label><br>
+                    </label>
                       <input type="password" name="password" id="user-password">
                       <i class="fa fa-lock-open"></i>
                   <label for="comf-password">
                     Confirm Password
-                </label><br>
+                </label>
                     <input type="password" name="comf-password" id="comf-password">
                     <i class="fa fa-lock-open"></i>
-                <button id="create-butn"><i class="fa fa-lock"></i>Create Account</button>
-
+                <button id="create-btn"><i class="fa fa-lock"></i>Create Account</button>
+                    </div>
+                 <div class="click-title">
                 <small><em>By clicking Create account, you agree to our<br>
                     <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.</em></small>
-                    <div class="form-footer">
-                        <small>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</small>
-                    </div>
-          
+                 </div>  
                </fieldset>
-            </form>
+               <div class="form-footer">
+                <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</p>
+               </div>
+         </form>
     </main>
     <footer class="footer">
         <ul>
@@ -71,8 +70,8 @@
             <li><a href="#">Privacy</a></li>
             <li><a href="#">Security</a></li> 
         </ul>
-        <small> &copy 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
-            Terms and conditions, features, support, pricing, and service options subject to change without notice.</small>
+        <p> &copy 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
+            Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
 
     </footer>
 </body>

@@ -3,7 +3,6 @@ body {
     margin: 0;
     box-sizing: border-box;
     background-color: rgb(240, 240, 240);
-    
 }
 header {
     display: grid;
@@ -11,15 +10,13 @@ header {
     justify-content: right;
     margin-top: 0.8rem;
 }
-
 .header-p {
     text-align: center;
     font-family: sans-serif;
 }
 .header-p a{
-        font-size: 0.7rem;
+    font-size: 0.7rem;
 }
-
 .sign-in button{
     height: 2.2rem;
     width: 6.5rem;
@@ -28,18 +25,15 @@ header {
     border-radius: 5px;
     border: none;
 }
-
 .fa-lock {
     position: relative;
     right: 1rem;
     color: #ffffff;
 }
-
 main {
-    width: 25%;
+    width: 30%;
     margin: 0 auto;
 }
-
 .intuit-logo{
   margin-top: 2rem;
   text-align: center;  
@@ -56,49 +50,114 @@ main {
 }
 fieldset {
     background-color: #ffffff;
-    /* text-align: center; */
+    padding: 2rem; 
 }
 .fieldset h2{
     text-align: center;
     color: #606060;
     font-family: sans-serif;
-
-}
-.fieldset input{
-    width: 20rem;
-    height: 2rem;
-    margin-bottom: 3rem;
-    position: relative;
-    bottom: 3rem;
 }
 
 .fieldset p{
     text-align: center;
+    font-size: 0.9rem;
+    margin: 0;
 }
-
 .fieldset p a{
     text-align: center;
-    position: relative;
-    bottom: 3rem;
     text-decoration: none;
 }
-.fieldset label {
-    position: relative;
-    bottom: 3.5rem;
+.form-input{
+    margin-top: 2rem;
+} 
+fieldset {
+   border: 0;
+   margin: 0;
 }
-
-.fieldset input[id="comf-password"] {
+.form-input label{
+    color: #395870;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.form-input input{
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;
+  height: 2.1rem;
+  border-radius: 0.2rem;
+  padding: 0;
+  width: 100%;
+}
+.fieldset input[id="comf-password"], input[id="user-email"]{
+    margin-bottom: 2rem;
+}
+.fieldset input[id="user-password"]{
+    margin-bottom: 1.5rem;
+}
+.fieldset #call{
+    margin-bottom: 2rem;
+    text-align: left; 
+    font-size: small; 
+}
+.fieldset input[id="comf-password"], label[for="comf-password"]{
     display: none;
 }
-
-.fieldset label[for="comf-password"]{
-    display: none;
+.fieldset #create-btn{
+    width: 100%;
+    height: 2.5rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: none;
+}
+fieldset button{
+    background-color:#0055ff;
+    border-radius: 0.4rem;
+}
+.click-title{
+    text-align: center;
+    margin-top: 2rem;
+}
+.click-title a{
+  text-decoration: none;
+}
+.form-footer {
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    font-size: 0.7rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    text-align: center;   
+}
+.form-footer p{
+    margin: 0; 
+}
+.form-footer a{
+    text-decoration: none;
+}
+.footer ul li{
+ list-style: none;
+ display: inline-block;
+ width: 5rem;
+}
+.footer{
+    text-align: center;  
+}
+.footer ul li a{
+ text-decoration: none;
+ color: #636466;
+}
+.footer p{
+margin: 0;
+padding: 1rem;
+font-size: small;
+color: #636466;
 }
 
-#call {
-    position: relative;
-    bottom: 6rem;
-}
 
 
 
