@@ -65,9 +65,11 @@ main {
 .main ul {
   list-style: none;
 }
+
 .main ul li {
   display: inline-block;
 }
+
 .main ul li img {
   margin-bottom: -0.7rem;
   border-radius: 55%;
@@ -90,6 +92,10 @@ fieldset {
   text-align: center;
   font-size: 0.9rem;
   margin: 0;
+}
+
+.form-footer a {
+  text-decoration: none;
 }
 
 .fieldset p a {
@@ -153,9 +159,11 @@ label[for="comf-password"] {
   text-align: center;
   margin-top: 2rem;
 }
+
 .click-title a {
   text-decoration: none;
 }
+
 .form-footer {
   display: flex;
   height: 3rem;
@@ -165,9 +173,6 @@ label[for="comf-password"] {
   padding: 2rem;
   box-sizing: border-box;
   text-align: center;
-}
-.form-footer a {
-  text-decoration: none;
 }
 
 .form-footer p {
