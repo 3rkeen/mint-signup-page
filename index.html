@@ -1,77 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Mint SignUp Page</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <div class="header-p">
-        <small>Already have an Intuit account?</small><br>
-        <small><a href="#">I forgot my User ID or Password Sign In</a></small> 
-        </div>
-        <div class="sign-in">
-            <button><i class="fa fa-lock"></i>Sign In</button>
-        </div>
+      <div class="header-p">
+        <small>Already have an Intuit account?</small><br />
+        <small><a href="#">I forgot my User ID or Password Sign In</a></small>
+      </div>
+      <div class="sign-in">
+        <button><i class="fa fa-lock"></i>Sign In</button>
+      </div>
     </header>
     <main class="main">
-        <div class="intuit-logo">
-        <img src="images/intuit-logo.PNG" alt="Intuit-Logo" id="intuit-logo">
-
+      <div class="intuit-logo">
+        <img src="images/intuit-logo.PNG" alt="Intuit-Logo" id="intuit-logo" />
+      </div>
+      <ul>
+        <li>
+          <img src="images/mint-logo.PNG" alt="mint-logo" id="mint-logo" /> mint
+        </li>
+        <li>
+          <img
+            src="images/quickbook-logo.PNG"
+            alt="quickbook-logo"
+            id="quickbook-logo"
+          />
+          quickbook
+        </li>
+        <li>
+          <img
+            src="images/turbotax-logo.PNG"
+            alt="turbotax-logo"
+            id="turbotax-logo"
+          />
+          turbotax
+        </li>
+      </ul>
+      <form action="index.html" method="POST">
+        <fieldset class="fieldset">
+          <h2>Create an Intuit account</h2>
+          <p>One account for everything Intuit, including Mint.</p>
+          <p><a href="#" id="learn-more">Learn More</a></p>
+          <div class="form-input">
+            <label for="user-email" class="label">
+              Email Address
+            </label>
+            <input type="email" name="email" id="user-email" />
+            <label for="phone-number">
+              Phone (recommended)
+            </label>
+            <input type="phone" name="phone" id="phone-number" />
+            <p id="call">Standard call, messaging or data rates may apply.</p>
+            <label for="user-password">
+              Password
+            </label>
+            <input type="password" name="password" id="user-password" />
+            <label for="comf-password">
+              Confirm Password
+            </label>
+            <input type="password" name="comf-password" id="comf-password" />
+            <i class="fa fa-lock-open"></i>
+            <button id="create-btn">
+              <i class="fa fa-lock"></i>Create Account
+            </button>
+          </div>
+          <div class="click-title">
+            <small
+              ><em
+                >By clicking Create account, you agree to our<br />
+                <a href="#">Terms</a> and have read and acknowledge our
+                <a href="#">Privacy Statement</a>.</em
+              ></small
+            >
+          </div>
+        </fieldset>
+        <div class="form-footer">
+          <p>
+            Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and
+            <a href="#">Terms of Use</a>.
+          </p>
         </div>
-            <ul>
-                <li><img src="images/mint-logo.PNG" alt="mint-logo" id="mint-logo"> mint</li>
-                <li><img src="images/quickbook-logo.PNG" alt="quickbook-logo" id="quickbook-logo"> quickbook</li>
-                <li><img src="images/turbotax-logo.PNG" alt="turbotax-logo" id="turbotax-logo"> turbotax</li>
-            </ul>
-            <form action="index.html" method="POST">
-                <fieldset class="fieldset">
-                   <h2>Create an Intuit account</h2>
-                   <p>One account for everything Intuit, including Mint.</p>
-                    <p><a href="#" id="learn-more">Learn More</a></p>
-                    <div class="form-input">
-                    <label for="user-email" class="label">
-                       Email Address
-                    </label>
-                       <input type="email" name="email" id="user-email">
-                   <label for="phone-number">
-                    Phone (recommended)
-                    </label>
-                    <input type="number" name="phone" id="phone-number">
-                    <p id="call">Standard call, messaging or data rates may apply.</p>
-                  <label for="user-password">
-                      Password
-                    </label>
-                      <input type="password" name="password" id="user-password">
-                  <label for="comf-password">
-                    Confirm Password
-                </label>
-                    <input type="password" name="comf-password" id="comf-password">
-                    <i class="fa fa-lock-open"></i>
-                <button id="create-btn"><i class="fa fa-lock"></i>Create Account</button>
-                    </div>
-                 <div class="click-title">
-                <small><em>By clicking Create account, you agree to our<br>
-                    <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy Statement</a>.</em></small>
-                 </div>  
-               </fieldset>
-               <div class="form-footer">
-                <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</p>
-               </div>
-         </form>
+      </form>
     </main>
     <footer class="footer">
-        <ul>
-            <li><a href="#">Legal</a></li>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Security</a></li> 
-        </ul>
-        <p> &copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
-            Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
-
+      <ul>
+        <li><a href="#">Legal</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Security</a></li>
+      </ul>
+      <p>
+        &copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+        TurboTax, ProConnect and Mint are registered trademarks of Intuit
+        Inc.<br />
+        Terms and conditions, features, support, pricing, and service options
+        subject to change without notice.
+      </p>
     </footer>
-</body>
+  </body>
 </html>
